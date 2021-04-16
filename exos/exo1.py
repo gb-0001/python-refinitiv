@@ -8,10 +8,9 @@ on affiche "c'est plus"
 Si le chiffre saisi est égal à guess_number
 on affiche "Bravo, tu as deviné !"
 '''
-
+print("*** EXO 1: chiffre mystère à deviner ***")
 guess_number = 42
 
-print("*** EXO 1: chiffre mystère à deviner ***")
 player_input = int(input("Saisir un chiffre: "))
 
 if player_input == guess_number:
