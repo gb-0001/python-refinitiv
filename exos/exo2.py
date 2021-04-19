@@ -10,7 +10,11 @@ on lui demande la saisie
 '''
 print("*** EXO 2: chiffre mystère à deviner --- version 2 --- ***")
 
-guessNumber = 560
+#guessNumber = 560
+
+from random import randint
+guessNumber = randint(1, 20)
+
 userNumber = int(input("Essaie de deviner mon chiffre. Saisis un chiffre : "))
 while userNumber != guessNumber:
     if userNumber > guessNumber:

@@ -11,7 +11,7 @@ student1 = {
     "fname":"Vincent",
     "email":"vincent.simon@refinitiv.com",
     "isGoodLearner":True,
-    "notes":[15, 7, 19.5]
+    "notes":[15, 7, 19.5, 5]
 }
 student2 = {
     "lname":"Blanchard", 

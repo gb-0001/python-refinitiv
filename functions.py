@@ -26,9 +26,10 @@ def square(n):
 # print(square(6) * 2)
 # print(square(3) + square(4))
 
-numbers = [6,4,10,8,15]
+numbers = [6,4,40,10,8,15]
 for n in numbers:
-    print(square(n))
+    if not n >= 10:
+        print(square(n))
 
 
 
