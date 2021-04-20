@@ -17,4 +17,4 @@ prices = [14,100,30,10,8]
 
 userVat = float(input("TVA: "))
 for p in prices:
-    print(getPriceWithVAT(p, userVat, True))
+    print(getPriceWithVAT(p, userVat, shouldRound=False))
